@@ -1,12 +1,12 @@
 ### Orders of Growth
-- O(1) — Constant.
+- O(1) — Constant.                	<span style="color:green;">Fast</span>
 - O(log n) — Logarithmic.
 - O(n) — Linear.
 - O(n log n) — Linearithmic.
 - O(n^2) — Quadratic.
 - O(n^3) — Cubic.
 - O(2^n) — Exponential.
-- O(n!) — Factorial.
+- O(n!) — Factorial.                <span style="color:red;">Slow</span>
 ### O(1) 
 O(1) describes algorithms that take the same amount of time to compute regardless of the input size. <br /> 
 _For instance, if a function takes the same time to process 10 or 10...0 elements, then we it has a constant growth rate or O(1)._
