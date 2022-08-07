@@ -15,7 +15,12 @@ O(1) describes algorithms that take the same amount of time to compute regardles
 _For instance, if a function takes the same time to process 10 or 10...0 elements, then we it has a constant growth rate or O(1)._
 
 ### O(n^2) 
-O(n^2) quadratic Time: Given an input of size n, the number of steps it takes to accomplish a task is square of n.
+O(n^2) quadratic time: Given an input of size n, the number of steps it takes to accomplish a task is square of n.
+
+### O(logN) — Logarithmic
+O(logN) — logarithmic time complexities usually apply to algorithms that divide problems in half every time.
+_(Binary search)_
+
 #### Auxiliary Space 
 Auxiliary Space is the extra space or temporary space used by an algorithm. 
 #### Space Complexity 
