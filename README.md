@@ -8,7 +8,7 @@
 - O(2^n) — Exponential.
 - O(n!) — Factorial.
 ### O(1) 
-O(1) describes algorithms that take the same amount of time to compute regardless of the input size.
+O(1) describes algorithms that take the same amount of time to compute regardless of the input size. <br /> 
 _For instance, if a function takes the same time to process 10 or 10...0 elements, then we it has a constant growth rate or O(1)._
 #### Auxiliary Space 
 Auxiliary Space is the extra space or temporary space used by an algorithm. 
