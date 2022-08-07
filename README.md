@@ -1,5 +1,6 @@
 ### Orders of Growth
 
+|  |  |  |
 |:----|:----:|----:|
 | O(1)       | Constant     | Fast |
 | O(log n)   | Logarithmic  |      |
