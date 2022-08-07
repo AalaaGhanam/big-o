@@ -8,8 +8,8 @@
 - O(2^n) — Exponential.
 - O(n!) — Factorial.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:red'>Slow</span>
 
-|      **Orders of Growth**     |
-| — — — - -|  — — — - - -| — — —|
+| Header1 | Header2 | Header3 |
+|:----:|:----:|----:|
 | O(1)     | Constant    | Fast |
 | O(log n) | Logarithmic |      |
 
