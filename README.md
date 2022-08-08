@@ -27,12 +27,12 @@ _(Merge sort, Quicksort, Heap sort and others.)_
 
 _______
 ```
-let n = 16;
-O(1) = 1 step  +awesome
-O(log n) = 4 steps  "(awesome!)" -- assumed base 2
-O(n) = 16 steps "(pretty good!)"
-O(n^2) = 256 steps "(uhh..we can work with this?)"
-O(2^n) = 65,536 steps "(...)"
+const n = 16;
+O(1) = 1 step 
+O(log n) = 4 steps
+O(n) = 16 steps 
+O(n^2) = 256 steps
+O(2^n) = 65,536 steps
 ```
 _______
 #### Auxiliary Space 
