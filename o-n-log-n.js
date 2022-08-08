@@ -60,6 +60,7 @@ console.log(mergeSort([9, 5, 1, 3]));
  * @returns {array} sorted array in asc order.
  */
  function quickSort(arr) {
+    console.log(arr)
     if (arr.length === 1) return arr;
     const pivot = arr[arr.length -1];
     var leftArr = [];
@@ -79,4 +80,4 @@ console.log(mergeSort([9, 5, 1, 3]));
         return [pivot, ...quickSort(rightArr)];
     }
 }
-console.log(quickSort([9, 54, 51, 37, 65, 1]));
+console.log(quickSort([9, 54, 51, 37, 65, 14, 8, 6, ]));
