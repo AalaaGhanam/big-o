@@ -1,15 +1,13 @@
 function nLogN(n) {
-    let y = n;
+    var y = n;
     while (n > 1) {
-        n = Math.floor(n/2);
-        for (let i=0; i < y; i++) {
+        n = Math.floor(n / 2);
+        for (var i = 0; i < y; i++) {
             console.log(i);
         }
     }
-    
 }
 nLogN(4);
-
 /**
  * Merge Sort - Sort array in asc order using merge-sort O(n log n).
  * Divide the array recursively until the elements are two or less.
@@ -19,16 +17,15 @@ nLogN(4);
  * @param {array} array
  * @returns {array} sorted arrays in asc order.
  */
+
 function mergeSort(arr) {
-    if (arr.length < 2) return arr;
-
-    const midIndex = Math.floor(arr.length /2);
-    const leftArr = arr.slice(0, midIndex);
-    const rightArr = arr.slice(midIndex, arr.length);
-
+    if (arr.length < 2)
+        return arr;
+    var midIndex = Math.floor(arr.length / 2);
+    var leftArr = arr.slice(0, midIndex);
+    var rightArr = arr.slice(midIndex, arr.length);
     return merge(mergeSort(leftArr), mergeSort(rightArr));
 }
-
 /**
  * Merge two arrays in asc order.
  * @example
@@ -38,20 +35,19 @@ function mergeSort(arr) {
  * @returns {array} merged arrays in asc order.
  */
 function merge(leftArr, rightArr) {
-    let resultArr: any = [];
-    let leftIndex = 0;
-    let rightIndex = 0;
-
+    var resultArr = [];
+    var leftIndex = 0;
+    var rightIndex = 0;
     while (leftIndex < leftArr.length && rightIndex < rightArr.length) {
-        if(leftArr[leftIndex] < rightArr[rightIndex]) {
+        if (leftArr[leftIndex] < rightArr[rightIndex]) {
             resultArr.push(leftArr[leftIndex]);
             leftIndex = leftIndex + 1;
-        } else {
+        }
+        else {
             resultArr.push(rightArr[rightIndex]);
             rightIndex = rightIndex + 1;
         }
     }
     return resultArr.concat(leftArr.slice(leftIndex)).concat(rightArr.slice(rightIndex));
 }
-
 console.log(mergeSort([9, 5, 1, 3]));

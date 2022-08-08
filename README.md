@@ -22,8 +22,12 @@ O(log n) logarithmic time: complexities usually apply to algorithms that divide 
 _(Binary search)_
 
 ### O(n log n) — Linearithmic
-O(n log n) linearithmic time: repeatedly divide a set of data in half, and then process those halves independently with a sub algorithm that has a time complexity of O(N), will have an overall time complexity of O(N log N).
+O(n log n) linearithmic time: repeatedly divide a set of data in half, and then process those halves independently with a sub algorithm that has a time complexity of O(N), will have an overall time complexity of o(n log n).
 _(Merge sort, Quicksort, Heap sort and others.)_
+
+### O(2^n) — Exponential
+O(2^n) —  runtime complexities are often seen in recursive functions that make 2 recursive calls and pass in the problem size of N-1.
+_(Fibonacci)_
 
 _______
 ```
