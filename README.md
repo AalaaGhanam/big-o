@@ -26,9 +26,12 @@ O(n log n) linearithmic time: repeatedly divide a set of data in half, and then 
 _(Merge sort, Quicksort, Heap sort and others.)_
 
 ### O(2^n) — Exponential
-O(2^n) —  runtime complexities are often seen in recursive functions that make 2 recursive calls and pass in the problem size of N-1.
-_(Fibonacci)_
+O(2^n) — exponential Time: Given an input of size n, the number of steps it takes to accomplish a task is a constant to the n power, runtime complexities are often seen in recursive functions that make 2 recursive calls and pass in the problem size of N-1.
+_(Fibonacci, Tower of Hanoi.)_
 
+### O(n!) - Factorial  
+O(n!) - factorial is the multiplication of all positive integer numbers less than itself.
+_(Permutations of a string, andSolving the traveling salesman problem with a brute-force search)_
 _______
 ```
 const n = 16;

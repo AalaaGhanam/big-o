@@ -51,3 +51,32 @@ function merge(leftArr, rightArr) {
     return resultArr.concat(leftArr.slice(leftIndex)).concat(rightArr.slice(rightIndex));
 }
 console.log(mergeSort([9, 5, 1, 3]));
+
+/**
+ * Quick two arrays in asc order.
+ * @example
+ *    merge([2,5,9], [1,6,7]) => [1, 2, 5, 6, 7, 9]
+ * @param {array} arr
+ * @returns {array} sorted array in asc order.
+ */
+ function quickSort(arr) {
+    if (arr.length === 1) return arr;
+    const pivot = arr[arr.length -1];
+    var leftArr = [];
+    var rightArr = [];
+    for (let i=0; i < arr.length -1; i++) {
+        if(arr[i] < pivot) {
+            leftArr.push(arr[i]);
+        } else {
+            rightArr.push(arr[i]);
+        }
+    }
+    if (leftArr.length > 0 && rightArr.length > 0) {
+        return [...quickSort(leftArr), pivot, ...quickSort(rightArr)];
+    } else if (leftArr.length > 0) {
+        return [...quickSort(leftArr), pivot];
+    } else {
+        return [pivot, ...quickSort(rightArr)];
+    }
+}
+console.log(quickSort([9, 54, 51, 37, 65, 1]));
