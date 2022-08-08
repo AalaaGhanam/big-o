@@ -28,7 +28,7 @@ _(Merge sort, Quicksort, Heap sort and others.)_
 _______
 ```
 let n = 16;
-O(1) = 1 step  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `awesome!`
+O(1) = 1 step  +awesome
 O(log n) = 4 steps  "(awesome!)" -- assumed base 2
 O(n) = 16 steps "(pretty good!)"
 O(n^2) = 256 steps "(uhh..we can work with this?)"
