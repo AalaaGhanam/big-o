@@ -6,11 +6,11 @@ function logN(n) {
 console.log(logN(8));
 
 /**
- * Binary Search O(log N)
- * @sorted array
- * @start index
- * @end index
- * @target value
+ * Binary Search O(log n)
+ * @param {array} sorted array
+ * @param {number} start index
+ * @param {number} end index
+ * @param {number} target value
  */
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8];
