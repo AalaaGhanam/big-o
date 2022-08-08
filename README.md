@@ -18,18 +18,17 @@ _For instance, if a function takes the same time to process 10 or 10...0 element
 O(n^2) quadratic time: Given an input of size n, the number of steps it takes to accomplish a task is square of n.
 
 ### O(log n) — Logarithmic
-O(log n) — logarithmic time: complexities usually apply to algorithms that divide problems in half every time.
+O(log n) logarithmic time: complexities usually apply to algorithms that divide problems in half every time.
 _(Binary search)_
 
 ### O(n log n) — Linearithmic
-O(n log n) — linearithmic time: repeatedly divide a set of data in half, and then process those halves independently with a sub algorithm that has a time complexity of O(N), will have an overall time complexity of O(N log N).
+O(n log n) linearithmic time: repeatedly divide a set of data in half, and then process those halves independently with a sub algorithm that has a time complexity of O(N), will have an overall time complexity of O(N log N).
 _(Merge sort, Quicksort, Heap sort and others.)_
 
-\
 _______
 ```
 let n = 16;
-O(1) = 1 step "(awesome!)"
+O(1) = 1 step  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `awesome!`
 O(log n) = 4 steps  "(awesome!)" -- assumed base 2
 O(n) = 16 steps "(pretty good!)"
 O(n^2) = 256 steps "(uhh..we can work with this?)"
